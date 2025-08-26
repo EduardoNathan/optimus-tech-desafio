@@ -1,0 +1,38 @@
+.talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6em;
+}
+
+.talentos__vagas-abertas {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: var(--vermelho);
+    background-color: var(--fundo-vagas);
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.talentos__titulo {
+    font-size: 2.25em;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+}
+
+.talentos__texto-equipe {
+    color: var(--cinza-claro);
+    font-size: 1.25em;
+    font-weight: 400;
+
+}
+
+.talentos__imagem {
+    margin-top: 4em;
+}
+
+.talentos__titulo,
+.talentos__texto-equipe,
+.talentos__vagas-abertas {
+    margin: 0.4em 0;
+}

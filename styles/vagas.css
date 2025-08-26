@@ -1,0 +1,42 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    padding: 4em 16em;
+}
+
+.vagas__area {
+    font-size: 1.25em;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+.vagas__card {
+    border-radius: 1em;
+    border-color: var(--cinza-borda);
+    border-width: 0.1em;
+    border-style: solid;
+    margin-bottom: 1.5em;
+}
+
+.vagas__card-cargo {
+    font-size: 1.125em;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    margin-left: 1.2em;
+}
+
+.vagas__card-descricao {
+    display: flex;
+}
+
+.vagas__card-descricao-horario {
+    margin-right: 1.5em;
+}
+
+.vagas__card-descricao-horario,
+.vagas__card-descricao-salario {
+    margin-left: 1.5em;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--cinza-claro);
+}

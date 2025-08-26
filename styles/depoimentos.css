@@ -1,0 +1,34 @@
+.depoimentos {
+    margin: 7em;
+    padding: 4em;
+    background-color: var(--fundo-depoimentos);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.depoimentos__titulo {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.depoimentos__depoimento-funcionario {
+    font-size: 2.25em;
+    font-weight: 500;
+    text-align: center;
+    color: var(--cinza-escuro);
+}
+
+.depoimentos__nome-colaborador {
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+.depoimentos__cargo-funcinario {
+    margin-top: auto;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}

@@ -1,0 +1,42 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 4em;
+}
+
+.cabecalho__lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: auto;
+}
+
+.cabecalho__lista-item {
+    margin-left: 1.3em;
+}
+
+.cabecalho__lista-link {
+    text-decoration: none;
+    color: var(--cinza-claro);
+}
+
+.cabecalho__botoes button {
+    padding: 0.5em;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.cabecalho__botoes-entrar {
+    background-color: transparent;
+    color: var(--cinza-claro);
+}
+
+.cabecalho__botoes-cadastrar {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border-radius: 8px;
+}

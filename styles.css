@@ -1,0 +1,27 @@
+@import url(styles/cabecalho.css);
+@import url(styles/sobrenos.css);
+@import url(styles/metricas.css);
+@import url(styles/talentos.css);
+@import url(styles/vagas.css);
+@import url(styles/depoimentos.css);
+@import url(styles/rodape.css);
+
+:root {
+    --branco: #FFFFFF;
+    --vermelho: #8E2424;
+    --vermelho-hover: #a11b1b;
+    --cinza-claro: #667085;
+    --cinza-escuro: #101828;
+    --fundo-vagas: #ff000018;
+    --fundo-depoimentos: #ffbbbb18;
+    --fundo-rodape: #F9FAFB;
+    --cinza-borda: #EAECF0;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

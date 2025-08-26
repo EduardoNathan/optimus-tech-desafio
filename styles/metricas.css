@@ -1,0 +1,32 @@
+.metricas__container {
+    padding: 0 5em;
+}
+
+.metricas {
+    display: flex;
+}
+
+.metricas__numeros {
+    font-size: 3.5em;
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.metricas__subtitulo {
+    color: var(--cinza-escuro);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.metricas__descricao {
+    color: var(--cinza-claro);
+    font-size: 1em;
+    max-width: 260px;
+    line-height: 1.5;
+}
+
+.metricas__numeros,
+.metricas__subtitulo,
+.metricas__descricao {
+    margin: 0.4em 0;
+}   
